@@ -6,7 +6,7 @@ import java.util.*;
  * Created by ag on 22.06.2018.
  */
 public class CountMapExample<K> implements CountMap {
-    HashMap<K, Integer> storage;
+    private HashMap<K, Integer> storage;
 
     public CountMapExample(){
         storage = new HashMap<K, Integer>();
